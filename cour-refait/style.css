@@ -1,0 +1,62 @@
+*{
+    border-radius: 30px;
+    padding: 8px;
+    text-align: center;
+}
+
+body{
+    min-height: 100vh;
+    transition: 0.2s;
+}
+img{
+    margin: auto 0;
+    height: 200px;
+    visibility: hidden;
+    transform: 0.5s;
+}
+.show{
+    visibility: visible;
+}
+
+.mousseEvent{
+    border: 2px red solid;
+    width: 220px;
+    position: absolute;
+    left: 20%;
+    transform: translateX(-50%);
+    padding: 10px;
+}
+
+/* couleur theme */
+ .themeContainer{
+     position: fixed;
+     top: 0;
+ }
+ .theme{
+     height: 30px;
+     width: 30px;
+     cursor: pointer;
+ }
+ #dark{
+     background: black;
+ }
+ #salmon{
+     background: salmon;
+ }
+ #yellow{
+     background: yellow;
+     color: white;
+ }
+
+.darkTheme {
+    background:black ;
+    color: white;
+}
+.salmonTheme {
+    background: salmon;
+    color: white;
+}
+.yellowTheme {
+    background: yellow ;
+    color: white;
+}
